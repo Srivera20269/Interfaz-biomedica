@@ -17,6 +17,11 @@ Este repositorio presenta los avances logrados en esta línea de investigación.
 
 ## Metodología
 ### Prótesis seleccionada
+En el año 2021 se empezó el proyecto de la optimización del diseño y control de una mano animatrónica antropomórfica, dentro de la Universidad del Valle de Guatemala. Donde por el uso de motores "Dynamixel" tanto AX-12A como XL-320 logró recrear los movimientos establecidos y suaves aprovechando los motores al máximo. 
+Dentro de la programación utilizada Gálvez utilizo tanto MATLAB como el microcontrolador OpemCM9.04 C para el control de los diferentes actuadores utilizados. Además de utilizar un sensor de captura "LeapMotion" para la obtención de los diferentes movimientos deseados a utilizar en la prótesis.
+
+![Mano](https://github.com/user-attachments/assets/e4e6558b-1341-4d50-8599-637e55e8a00e)
+
 ### Equipo Utilizado
 Para completar el trabajo, se hizo uso de diferentes softwares y sensores, estos son los siguientes.
 #### Myoware 2.0
@@ -42,8 +47,14 @@ El MPU6050 es un sensor inercial de bajo costo que combina un acelerómetro de t
 
 ![MPU6050](https://github.com/user-attachments/assets/ed20d60b-d075-493f-8601-ef81bffc7073)
 
-## Mano animatrónica
-En el año 2021 se empezó el proyecto de la optimización del diseño y control de una mano animatrónica antropomórfica, dentro de la Universidad del Valle de Guatemala. Donde por el uso de motores "Dynamixel" tanto AX-12A como XL-320 logró recrear los movimientos establecidos y suaves aprovechando los motores al máximo. 
-Dentro de la programación utilizada Gálvez utilizo tanto MATLAB como el microcontrolador OpemCM9.04 C para el control de los diferentes actuadores utilizados. Además de utilizar un sensor de captura "LeapMotion" para la obtención de los diferentes movimientos deseados a utilizar en la prótesis.
+### Clasificadores Utilizados
+#### SVM
+#### ANN
+#### KNN
 
-![Mano](https://github.com/user-attachments/assets/e4e6558b-1341-4d50-8599-637e55e8a00e)
+## Carpetas de Trabajo
+### Codigos
+En esta carpeta estarán todos los códigos utilizados dentro del trabajo. Se encuentran divididos entre los diferentes sensores utilizados y el software en el que se programarón. Además se encuentran las interfaces creadas, dentro de la aplicación de App Designer de MATLAB.
+### Documentos
+En esta carpeta se encontrarán todos los manuales de usuario. Además de los trabajos escritos desarrollados durante el trabajo.
+
