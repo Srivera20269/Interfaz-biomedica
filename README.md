@@ -19,33 +19,40 @@ Este repositorio presenta los avances logrados en esta línea de investigación.
 ### Prótesis seleccionada
 En el año 2021 se empezó el proyecto de la optimización del diseño y control de una mano animatrónica antropomórfica, dentro de la Universidad del Valle de Guatemala. Donde por el uso de motores "Dynamixel" tanto AX-12A como XL-320 logró recrear los movimientos establecidos y suaves aprovechando los motores al máximo. 
 Dentro de la programación utilizada Gálvez utilizo tanto MATLAB como el microcontrolador OpemCM9.04 C para el control de los diferentes actuadores utilizados. Además de utilizar un sensor de captura "LeapMotion" para la obtención de los diferentes movimientos deseados a utilizar en la prótesis.
-
-![Mano](https://github.com/user-attachments/assets/e4e6558b-1341-4d50-8599-637e55e8a00e)
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/e4e6558b-1341-4d50-8599-637e55e8a00e" alt="Mano" width="300"/>
+</div>
 
 ### Equipo Utilizado
 Para completar el trabajo, se hizo uso de diferentes softwares y sensores, estos son los siguientes.
 #### Myoware 2.0
 MyoWare 2.0 es un sensor creado por la empresa Advancer Technologies, con el objetivo de captar y visualizar señales electromiográficas por medio del uso de tres electrodos. El sensor tiene una variedad de accesorios para la mejora en la captación de señales, el sensor está diseñado para ser trabajado con un microcontrolador Arduino con la capacidad no solo de captar las señales, sino que amplificarlas y rectificarlas para facilitar el análisis y uso de las señales.
-
-![Myoware](https://github.com/user-attachments/assets/a8c441d7-6fb7-4c7d-b3c1-f3d2a361ace3)
-
+<div align="center">
+<img src="https://github.com/user-attachments/assets/a8c441d7-6fb7-4c7d-b3c1-f3d2a361ace3" alt="Myoware" width="300"/>
+</div>
 
 #### BITalino
 PLUX Biosignals es una empresa cuyo objetivo es obtener soluciones para el trato y estudio de bioseñales. Cumpliendo con su objetivo, PLUX Biosignals ha desarrollado diferentes herramientas y servicios con el objetivo de apoyar a desarrollo de tecnologías basadas en el uso de bioseñales. Dentro de las herramientas y kits desarrollados podemos encontrar el BITalino siendo una plataforma de bioseñales open source diseñado para captar y analizar señales bioeléctricas.
 
 BITalino es compatible con el software OpenSignals y tiene bloques de hardware con sensores capaces de captar señales electrocardiográficas, electromiográficas, electroencefalográficas, actividad electrodermica, entre otros.
 
-![BITalino](https://github.com/user-attachments/assets/deb640e6-5581-47e4-8ecd-b721391b610b)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/deb640e6-5581-47e4-8ecd-b721391b610b" alt="BITalino" width="300"/>
+</div>
 
 #### ESP32
 El ESP32 es un microcontrolador de bajo costo y alta eficiencia desarrollado por Espressif Systems, ampliamente utilizado en proyectos de electrónica y automatización. Integra conectividad Wi-Fi y Bluetooth, lo que lo convierte en una excelente opción para aplicaciones de Internet de las Cosas (IoT). Su diseño incluye un procesador dual o de un solo núcleo, una amplia cantidad de pines GPIO (de entrada/salida), y soporte para diversos protocolos de comunicación, como UART, SPI e I2C. Además, es compatible con entornos de desarrollo populares como Arduino IDE y MicroPython, facilitando la programación y el desarrollo de proyectos conectados e inteligentes.
 
-![esp32](https://github.com/user-attachments/assets/2bfcecf9-89e8-4ad4-acaa-d64f8aa06ad3)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/2bfcecf9-89e8-4ad4-acaa-d64f8aa06ad3" alt="BITalino" width="300"/>
+</div>
 
 #### MPU6050
 El MPU6050 es un sensor inercial de bajo costo que combina un acelerómetro de tres ejes y un giroscopio de tres ejes en un solo chip. Esto le permite medir tanto la aceleración como la velocidad angular en los tres ejes espaciales (X, Y, Z), lo que lo hace ideal para aplicaciones en las que se requiere monitorear movimientos y orientaciones, como en robótica, drones, y sistemas de estabilización. Este sensor utiliza el protocolo de comunicación I2C para conectarse a microcontroladores y envía datos precisos a alta velocidad. Además, incluye un procesador de movimiento digital (DMP), que puede procesar y filtrar datos de movimiento en tiempo real, facilitando su uso en proyectos de control de movimiento y navegación.
 
-![MPU6050](https://github.com/user-attachments/assets/ed20d60b-d075-493f-8601-ef81bffc7073)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/ed20d60b-d075-493f-8601-ef81bffc7073" alt="BITalino" width="300"/>
+</div>
 
 ### Clasificadores Utilizados
 #### SVM
