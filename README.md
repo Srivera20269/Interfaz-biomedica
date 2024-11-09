@@ -15,6 +15,13 @@ Este repositorio presenta los avances logrados en esta línea de investigación.
 * Implementar el control de actuadores por medio de señales EMG y sensores de fuerza y dirección.
 * Validar las interfaces desarrolladas reconociendo movimientos comunes y controlando prótesis de miembro superior desarrolladas anteriormente en la UVG.
 
+## Carpetas de Trabajo
+### Codigos
+En esta carpeta estarán todos los códigos utilizados dentro del trabajo. Se encuentran divididos entre los diferentes sensores utilizados y el software en el que se programarón. Además se encuentran las interfaces creadas, dentro de la aplicación de App Designer de MATLAB.
+### Documentos
+En esta carpeta se encontrarán todos los manuales de usuario. Además de los trabajos escritos desarrollados durante el trabajo.
+
+
 ## Metodología
 ### Prótesis seleccionada
 En el año 2021 se empezó el proyecto de la optimización del diseño y control de una mano animatrónica antropomórfica, dentro de la Universidad del Valle de Guatemala. Donde por el uso de motores "Dynamixel" tanto AX-12A como XL-320 logró recrear los movimientos establecidos y suaves aprovechando los motores al máximo. 
@@ -55,13 +62,18 @@ El MPU6050 es un sensor inercial de bajo costo que combina un acelerómetro de t
 </div>
 
 ### Clasificadores Utilizados
+Dentro del trabajo y la carpeta de códigos se encontrarán diferentes códigos para el entrenamiento y uso de diferentes modelos de clasificadores. Estos fueron obtenidos gracias a la aplicación nativa de MATLAB con el nombre de Classification Learner. Se crearón haciendo uso de las bases de datos encontradas en la carpeta de documentos, principalmente los archivos ".mat".
+Para realizar el entrenamiento de los clasificadores se utilizaron las características de "Zero Crossing" y "MAV", para las señales EMG recaudadas.
 #### SVM
+Se utilizaron dos SVM de tipo cúbica, realizadas dentro de la aplicación especificada. El archivo con nombre "SVMv2.m" es el archivo para el uso de un sensor BITalino, mientras que el archivo "SVM2s.m" es para su uso con dos sensores BITalino.
 #### ANN
+Se utilizaron dos modelos ANN, al igual que los modelos especificados anteriormente se realizaron dentro de la aplicación de Classification Learner. El documento "ANNv2.m" es específica para el uso con un sensor BITalino. El archivo "ANN2s.m" se utilizó con dos sensores BITalinos.
 #### KNN
+Se utilizaron dos modelos de KNN, siguiendo el mismo esquema que los modelos anteriores. El archivo "KNNv2.m" es para el uso con un BITalino, mientras que el archivo "KNN2s.m" se utilizó con dos BITalinos.
 
-## Carpetas de Trabajo
-### Codigos
-En esta carpeta estarán todos los códigos utilizados dentro del trabajo. Se encuentran divididos entre los diferentes sensores utilizados y el software en el que se programarón. Además se encuentran las interfaces creadas, dentro de la aplicación de App Designer de MATLAB.
-### Documentos
-En esta carpeta se encontrarán todos los manuales de usuario. Además de los trabajos escritos desarrollados durante el trabajo.
+## Interfaces Realizadas
+### Interfaces de Recolección de señales EMG
+Para realizar las dos interfaces realizadas, se hizo uso del software de App Designer incluido dentro de MATLAB. Se realizarón diferentes interfaces gracias a la existencia de un toolbox de BITalino, el cual tiene dos versiones diferentes, una versión actualizada y una versión vieja.
+#### Interfaz de recolección de señales EMG con toolbox actualizado
+#### Interfaz de recolección de señales EMG con toolbox viejo
 
