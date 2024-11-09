@@ -99,7 +99,7 @@ Las interfaces tienen la opción de calcular 7 características diferentes de la
 #### Interfaz de recolección de señales EMG con MATLAB Support for BITalino Biosignal Devices Toolbox
 Como se mencionó esta interfaz no trabaja en tiempo real, por lo que es necesario una captura de datos con un tiempo en específico. La recolección se hace por un tiempo determinado por el usuario y por medio de un algoritmo de captura se reconoce la señal y se despliega. Al mismo tiempo se calculan las características indicadas y se guardan en un archivo .csv para su uso fuera de la aplicación.
 
-Esta aplicación se encuentra en la carpeta de códigos, dentro del apartado de aplicaciones. El archivo se tiene el nombre de "RecoleccionDeDatosEMGv3".
+Esta aplicación se encuentra en la carpeta de códigos, dentro del apartado de aplicaciones. El archivo se tiene el nombre de "RecoleccionDeDatosEMGv3" junto con las dependencias de si misma. Además dentro de la sección de códigos en el apartado de bases de datos, se encuentran todas las pruebas realizadas y lo obtenido de la misma.
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/fddec3e8-aafa-47bd-bc0a-8c6110ab5b0d" alt="EMGv3" width="500"/>
@@ -111,7 +111,7 @@ Esta interfaz fue utilizada para el uso definitivo dentro del trabajo. Trabaja p
 
 Para determinar el valor del promedio, es necesario realizar una calibración de antemano. Al conectar los sensores y empezar la lectura se presiona el botón de calibrar el cual al momento de empezar realiza capturas dentro de un rango de 5 segundos, donde determina el MAV de la señal y la guarda para su comparación dentro de la recolección de las señales.
 
-Al igual que la interfaz anterior, esta se encuentra en la misma carpeta. El archivo tiene el nombre de "RecoleccionDeDatosEMGv2" junto con todas sus dependencias utilizadas para su uso.
+Al igual que la interfaz anterior, esta se encuentra en la misma carpeta. El archivo tiene el nombre de "RecoleccionDeDatosEMGv2" junto con todas sus dependencias utilizadas para su uso. Además las pruebas realizadas con la misma se encuentran bajo la carpeta de Documentos, bajo el apartado de algoritmo nuevo.
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/af536456-3b56-4491-8f7d-3c770b754e82" alt="EMGv2" width="500"/>
